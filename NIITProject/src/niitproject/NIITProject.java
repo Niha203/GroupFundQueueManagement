@@ -5,6 +5,8 @@
  */
 package niitproject;
 
+import customer.Customer;
+
 /**
 
  @author Arko
@@ -17,7 +19,13 @@ public class NIITProject
      */
     public static void main(String[] args)
     {
-        // TODO code application logic here
+        
+        // Object declaration,.
+        Customer customerObject=new Customer();
+        //Timer timer=new Timer();
+        
+        // Causes the display to run every 1000 milliseconds.
+        //timer.schedule(customerObject, 0,1000);
     }
     
 }
